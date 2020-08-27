@@ -1,0 +1,11 @@
+.copyright a {
+   text-decoration: none;
+}
+.pink{
+    color:#ff0077; 
+}
+.copyright{
+    background-color:#000;
+    padding:3% 0%;
+    font-size: 20px;
+}
