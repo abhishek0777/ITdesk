@@ -1,0 +1,12 @@
+/* material.html */
+@media (max-width:768px){
+    .heading{
+        font-size:25px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 300;
+    }
+    .subjectHeading{
+        font-size:25px;
+        font-weight: 300px;
+    }
+}
