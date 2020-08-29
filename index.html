@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/v4-shims.css">
     
      <!-- fav icon -->
-     <link rel="shortcut icon" href="logo1.jpg"/>
+     <link rel="shortcut icon" href="images/icon.png"/>
 
      <!-- animation animate.css + wow.js -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"/>
@@ -30,80 +30,93 @@
 
 
     <!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light container">
+    <nav class="navbar navbar-expand-lg navbar-light container">
       <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="logo" width="60" height="50" style="border-radius: 10px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse right" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-link text-body" href="#">Home</a>
-            <a class="nav-link text-body" href="#">Material</a>
-            <a class="nav-link text-body" href="#">Assignments</a>
-            <a class="nav-link text-body" href="#">Notification</a>
+            <a class="nav-link text-body" href="index.html">Home</a>
+            <a class="nav-link text-body" href="public/material.html">Material</a>
+            <a class="nav-link text-body" href="public/assignment.html">Assignments</a>
+            <a class="nav-link text-body" href="public/duedate.html">Notification</a>
             <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
           </div>
         </div>
-      </nav>
-      <!-- navigation bar ends -->
+    </nav>
+    <!-- navigation bar ends -->
 
 
 
 
-      <!-- home start -->
-      <section>
+    <!-- home start -->
+    <section>
         <img src="images/deskBanner.png" alt="Desk" style="width:100%">
-        <br><br><br><br>
-        <div class="container">
+        <div class="container mt-3">
             <!-- <h2 style="text-align: center;" class="deskTitle">Desk for IT-A Online 3rd SEM.</h2> -->
         </div>
         <div class="container">
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet</p>
-          <h5>Class Representative:Abhigyan Kumar Tiwari</h5>
+          <p class="intro">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet</p>
+          
+          <div class="row">
+            <div class="col-md-6 col-sm-12 mt-3">
+              <h5 class="ml-auto">Class Representative:Abhigyan Kumar Tiwari</h5>
+            </div>
+
+            <div class="col-md-6 col-sm-12 mt-3 mb-3">
+              <a href="" class="btn btn-primary">Time Table</a>
+            </div>
+            
+          </div>
+          
           <br>
         </div>
         
-      </section>
-      <!-- home ends -->
+    </section>
+    <!-- home ends -->
        
 
 
-      <!-- nav items  -->
-       <section>
+     <!-- nav items  -->
+    <section>
         <div class="container">
          <div class="row">
           <div class="col-lg-4 col-sm-12 col-xs-12 mb-3 d-flex justify-content-center">
             <a href="public/material.html" style="text-align:center;">
-              <img src="images/material.jpg" width="330px" height="200px" style="border-radius: 10%;">
+              <img class="imageLink blackFilm" src="images/material.jpg" width="200px" height="200px" style="border-radius: 50%;  object-fit:cover;">
+              <div class="overlay"><h3 class="text">Material</h3></div>
             </a>
           </div>
           <div class="col-lg-4 col-sm-12 col-xs-12 mb-3 d-flex justify-content-center">
             <a href="public/material.html">
-              <img src="images/assignment.PNG"  width="330px" height="200px" style="border-radius: 10%;">
+              <img class="imageLink"  src="images/assignment.PNG"  width="200px" height="200px" style="border-radius: 50%; object-fit:cover;">
+              <div class="overlay"><h3 class="text">Assignment</h3></div>
             </a>
           </div>
           <div class="col-lg-4 col-sm-12 col-xs-12 mb-3 d-flex justify-content-center">
             <a href="public/material.html">
-              <img src="images/dueDates.jpg"  width="330px" height="200px" style="border-radius: 10%;">
+              <img class="imageLink"  src="images/dueDates.jpg"  width="200px" height="200px" style="border-radius: 50%; object-fit:cover;">
+              <div class="overlay"><h3 class="text">Due Dates</h3></div>
             </a>
           </div>
        
          </div>
         </div>
         <hr width="80%" height="2px" style="color:black">
-       </section>
+    </section>
       <!-- nav-items ends -->
 
 
 
     <!-- subjecttable -->
-    <section>
+    <section id="subject">
       <div class="container">  
         <br><br><br>
         <h2 class="text-center">SUBJECTS</h2>
         <br>
         <div class="row">
-          <div class="col-lg-4 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
            <div class="card" style="width: 18rem;">
              <div class="card-body">
                <h5 class="card-title">DATA STRUCTURE</h5>
@@ -116,7 +129,7 @@
            </div>
           </div>
 
-          <div class="col-lg-4 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
             <div class="card" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">ANALOG AND DIGITAL ELECTRONICS</h5>
@@ -129,7 +142,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
+          <div class="col-lg-4  col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
             <div class="card" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">OBJECT ORIENTED PROGRAMMING</h5>
@@ -143,11 +156,11 @@
           </div>      
            
           
-        </div>
+        <!-- </div>
 
-        <div class="row">
+        <div class="row"> -->
 
-          <div class="col-lg-4 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
             <div class="card" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">FOUNDATION OF LOGICAL THOUGHT</h5>
@@ -160,7 +173,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
+          <div class="col-lg-4  col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
             <div class="card" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">MANAGEMENT OF IT</h5>
@@ -186,7 +199,7 @@
         <br>
         <div class="row">
 
-          <div class="col-lg-4 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
+          <div class="col-lg-4  col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
             <div class="card" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">OOPS LAB</h5>
@@ -199,7 +212,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
+          <div class="col-lg-4  col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
             <div class="card" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">DS LAB</h5>
@@ -212,7 +225,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
+          <div class="col-lg-4  col-md-6 col-sm-12 col-xs-12 d-flex justify-content-center mb-3">
             <div class="card" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title">ELECTRONIC LAB</h5>
@@ -234,7 +247,7 @@
     <div class="container-fluid copyright mt-3">
       <footer class="text-center">
           <span class="pink">Designed <i class="fa fa-paint-brush"></i> and &#60;&#47;&#62; by <a class="pink"href="https://abhishek0777.github.io/" target="_blank">&Delta;V</a><br></span> 
-         <span style="color:#f1eaea">&copy; Copyright 2020 | IT MNNIT</span>
+         <span style="color:#000">&copy; Copyright 2020 | IT MNNIT</span>
           
       </footer>
      </div>
